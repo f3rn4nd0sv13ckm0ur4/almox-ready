@@ -1,0 +1,49 @@
+ body {
+  background-color: #1f4a85;
+    font-family: Arial, sans-serif;
+}
+.login-box,
+.input-group {
+    text-align: center;
+}
+.login-box {
+    color: #fff;
+}
+h1 {
+    margin-top: 260px;
+    font-size: 60px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+label {
+    font-size: 25px;
+}
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 22px 0 0;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+}
+button {
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    background: #2d5fa8;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background: #1f4a85;
+}
+
+#usuario{
+    font-size: 20px;
+}
+#senha{
+    font-size: 20px;
+}

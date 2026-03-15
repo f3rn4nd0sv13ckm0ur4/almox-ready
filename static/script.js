@@ -75,3 +75,11 @@ function remover() {
     alert("Produto não encontrado");
 }
 //Pagina do Roger
+function aumentar(imagem) {
+    imagem.style.transform = "scale(1.2)"; // Aumenta
+}
+
+function diminuir(imagem) {
+    imagem.style.transform = "scale(1)"; // Volta ao normal
+}
+

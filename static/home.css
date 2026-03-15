@@ -1,5 +1,5 @@
 body {
-    background-color: deeppink;
+    background-color: #1f4a85;
 }
 
 #titulo {
@@ -40,8 +40,8 @@ body {
 
 .rogerimg img {
     width: 400px;        /* Mude esse número para aumentar ou diminuir */
-    height: auto;         /* Mantém a proporção para não achatar o rosto */
+    height: auto;         /* Mantém a tamanho para não achatar */
     display: block;
-    margin: 0 auto;       /* Centraliza a imagem na tela */
+    margin: 0 auto;       /* Centraliza a imagem */
 
 }

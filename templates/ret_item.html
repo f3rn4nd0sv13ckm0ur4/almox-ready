@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <title>Dashboard Estoque</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='ret_item.css') }}">
-<script src="script.js" defer></script>
+<script src="{{ url_for('static', filename='script.js') }}" defer></script>
+
 </head>
 <body>
 <!-- dashboard-->
@@ -17,7 +18,7 @@
             <button> HOME </button>
             </a>
 
-            <a href="add_item (1).html">
+            <a href="add_item.html">
             <button> ADICIONAR ITENS</button>
             </a>
 

@@ -8,7 +8,7 @@ function verificarLogin() {
 
     if (usuarioDigitado === usuarioCorreto && senhaDigitada === senhaCorreta) {
         alert("Login realizado com sucesso!");
-        window.location.href ="estoque.html"
+        window.location.href ="/estoque"
     } else {
         alert("Usuário ou senha incorretos!");
     }

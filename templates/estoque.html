@@ -3,38 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Estoque - Filtros de Ar</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
 </head>
 
 <body>
 <!-- dashboard-->
 <div class="container">
-        <div class="navbar">
-
-        
-        
-
-            <a href="Home.html">
-            <button> HOME </button>
-            </a>
-
-            <a href="add_item (1).html">
-            <button> ADICIONAR ITENS</button>
-            </a>
-
-            <a href="estoque.html">
-                <button> ESTOQUE </button>
-            </a>
-
-            <a href="ret_item.html">
-                <button> RETIRADA </button>
-            </a>
-
-            <a href="Login_page.html">
-                <button> FECHAR </button>
-            </a>
-        </div>
+<div class="navbar">
+    <a href="/home"><button> HOME </button></a>
+    <a href="/add_item"><button> ADICIONAR ITENS </button></a>
+    <a href="/estoque"><button> ESTOQUE </button></a>
+    <a href="/ret_item"><button> RETIRADA </button></a>
+    <a href="/"><button> FECHAR </button></a>
+</div>
     </div>
     <h1>    
         Estoque<br>Autopeças

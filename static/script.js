@@ -22,19 +22,20 @@ function adicionar() {
     let descricao = document.getElementById("descricao1").value;
     let qtd = parseInt(document.getElementById("qtd1").value);
     let preco = document.getElementById("preco1").value;
-
+//verifica se as variaveis estão sendo lidas corretamente
     console.log("Codigo1", codigo);
     console.log("descricao1", descricao);
     console.log("qtd1", qtd);
     console.log("preco1", preco);
 
     if (!codigo || !descricao || isNaN(qtd) || !preco) return;
-
+//define o status da tabela e a cor da celula
     let status = "";
     let classe = "";
 
     let tabela = document.getElementById("tabela1");
-    let linha = tabela.insertRow(1);
+    let linha = tabela.insertRow(1);// insere uma nv linha na tabela
+//insere o html na nv linha
     linha.innerHTML = `
         <td>${codigo}</td>
         <td>${descricao}</td>
@@ -62,9 +63,9 @@ function remover() {
     let tabela1 = document.getElementById("tabela1");
 
     for (let i = 1; i < tabela1.rows.length; i++) {
-
+//procura um produto com o msm codigo
         let codigoTabela = tabela1.rows[i].cells[0].innerText;
-
+//pega o produto na tabela
         if (codigoTabela === codigo) {
             tabela1.deleteRow(i);
             alert("Produto removido!");
